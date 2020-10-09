@@ -21,12 +21,9 @@ map_result_3 = square_1(3)
 # Filter
 def check_even(num): return num % 2 == 0
 
-
 check_even_1 = lambda num: num **3
 
 filter_result_1 = list(filter(check_even, numbers))
 filter_result_2 = list(filter(lambda num: num ** 2, numbers))
 filter_result_3 = check_even_1(3)
 
-
-# Bankamatik Uygulaması
